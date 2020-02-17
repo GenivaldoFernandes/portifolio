@@ -1,0 +1,43 @@
+
+html {
+}
+
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.header {
+    display: block;
+    background-color: blueviolet;
+    height: 64px;
+}
+
+nav {
+    min-height: 75px;
+}
+
+.container{
+	min-height: 1000px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.bloco-sobre{
+    margin-top: 60px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 5px 10px 18px lightgray;
+}
+
+.author_date{
+    float: right;
+    display: inline-block;
+}
+
+
+.bloco-sobre:hover{
+    box-shadow: 0px 0px 0px lightgray;
+}
